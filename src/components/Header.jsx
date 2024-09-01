@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <header ref={headerRef} className="pt-[60px] fixed top-0 left-0 w-full z-50 transition-all duration-200">
-        <div className="container mx-auto flex justify-between items-center gap-[30px] sm:gap-0 flex-col sm:flex-row">
+        <div className="container flex justify-between items-center gap-[30px] sm:gap-0 flex-col sm:flex-row">
         <a href="/">
           <img src="/src/assets/images/logo.svg"/>
         </a>
