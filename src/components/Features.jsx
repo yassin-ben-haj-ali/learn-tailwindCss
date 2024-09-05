@@ -24,7 +24,7 @@ const Features = () => {
           desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sed beatae, laboriosam enim voluptatum quia.",
         },
       ]);
-  return <section>
+  return <section className="pb-[150px]">
     <div className="container">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[100px] w-[865px] mx-auto max-w-full">
                 {
